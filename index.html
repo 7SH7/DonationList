@@ -1,0 +1,136 @@
+<html lang="en">
+<!-- 복지재단 관리자 계정이라 edit이 있는 것 -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.101.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="my.css" rel="stylesheet">
+
+  <title>OO복지재단 홈페이지</title>
+
+  <!-- Bootstrap core CSS -->
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1130.0" data-gr-ext-installed="">
+
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+          <strong>OO복지재단</strong>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>기부 내역</h1>
+        <br>
+        <p class="lead text-muted">OO복지재단은 어린 아이들과 사회적으로 배척된 사람들을 도와주는 비영리 기구로, 어린이들의 교육과 생활을 지원합니다. 또한 사회적으로 취약한 그룹들을
+          위해 노력하며, 그들의 삶의 질을 향상시키는 데 기여합니다.</p>
+        <p>
+          <a href="" class="btn btn-primary my-2">기부하기</a>
+          <a href="" class="btn btn-success my-2">기부자 명단 보기</a>
+          <a href="view.html" class="btn btn-dark my-2">최근 기부 내역 확인</a>
+          <!-- 기부 내역 확인 가서, 수정 및 삭제 할 수 있도록.. -->
+        </p>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="table-responsive">
+          <table class="table table-bordered table-light">
+            <thead>
+              <tr>
+                <th>번째</th>
+                <th>물품명</th>
+                <th>수량</th>
+                <th>기부자</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>휴지</td>
+                <td>100</td>
+                <td>김OO</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>의류</td>
+                <td>50</td>
+                <td>이XX</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>음식</td>
+                <td>30</td>
+                <td>박OO</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>장난감</td>
+                <td>25</td>
+                <td>정XX</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>도서</td>
+                <td>15</td>
+                <td>최OO</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>가구</td>
+                <td>10</td>
+                <td>이XX</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>전자제품</td>
+                <td>8</td>
+                <td>김OO</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <button type="button" class="btn btn-sm btn-outline-secondary">More</button>
+        <a href="./add.html"><button type="button" class="btn btn-sm btn-outline-secondary">Add</button></a>
+      </div>
+    </div>
+
+    <script>
+      function click_delete() {
+        // 확인 누르는 것(delete.html)과 다른 것 누르는 것(index.html)과 구분해야함.
+        confirm("게시물을 삭제할까요?");
+      }
+    </script>
+
+  </main>
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        © OO복지재단 <br>
+        연락(contact): 010-1234-5678 <br>
+        <a href="#">위로 가기</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
